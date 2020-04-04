@@ -8,59 +8,64 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="background__patterns">
-        <img src="images/bg-top.svg" class="top-SVG" alt="Curve shape">
-        <img src="images/bg-bottom.svg" class="bottom-SVG" alt="Curve shape">
-    </div>
+    <img src="images/bg-top.svg" class="top-SVG pattern" alt="Curve shape">
+    <img src="images/bg-bottom.svg" class="bottom-SVG pattern" alt="Curve shape">
     <header class="header">
         <h1>Our Pricing</h1>
+        <div class="toggle">
+            <span>Annually</span>
+            <label for="switch">
+                <input type="checkbox" id="switch" checked>
+            </label>
+            <span>Monthly</span>
+        </div>
     </header>
-<main>
-    <div class="price__container">
-        <div class="price__card">
-            <small>Basic</small>
-            <h2>$19.99</h2>
-            <ul class="package__details">
-                <hr>
-                <li>500 GB Storage</li>
-                <hr>
-                <li>2 Users Allowed</li>
-                <hr>
-                <li>Send up to 3 GB</li>
-                <hr>
-            </ul>
-            <button class="btn">Learn More</button>
+    <main>
+        <div class="price__container">
+            <div class="price__card">
+                <p>Basic</p>
+                <h2><span class="dollar">$</span>19.99</h2>
+                <ul class="package__details">
+                    <hr>
+                    <li>500 GB Storage</li>
+                    <hr>
+                    <li>2 Users Allowed</li>
+                    <hr>
+                    <li>Send up to 3 GB</li>
+                    <hr>
+                </ul>
+                <button class="btn">Learn More</button>
+            </div>
+            <div class="price__card">
+                <p>Professional</p>
+                <h2><span class="dollar">$</span>24.99</h2>
+                <ul class="package__details">
+                    <hr>
+                    <li>1 TB Storage</li>
+                    <hr>
+                    <li>5 Users Allowed</li>
+                    <hr>
+                    <li>Send up to 10 GB</li>
+                    <hr>
+                </ul>
+                <button class="white-btn btn">Learn More</button>
+            </div>        
+            <div class="price__card">
+                <p>Master</p>
+                <h2><span class="dollar">$</span>29.99</h2>
+                <ul class="package__details">
+                    <hr>
+                    <li>2 TB Storage</li>
+                    <hr>
+                    <li>10 Users Allowed</li>
+                    <hr>
+                    <li>Send up to 20 GB</li>
+                    <hr>
+                </ul>
+                <button class="btn">Learn More</button>
+            </div>
         </div>
-        <div class="price__card">
-            <small>Professional</small>
-            <h2>$24.99</h2>
-            <ul class="package__details">
-                <hr>
-                <li>1 TB Storage</li>
-                <hr>
-                <li>5 Users Allowed</li>
-                <hr>
-                <li>Send up to 10 GB</li>
-                <hr>
-            </ul>
-            <button class="btn">Learn More</button>
-        </div>        
-        <div class="price__card">
-            <small>Master</small>
-            <h2>$29.99</h2>
-            <ul class="package__details">
-                <hr>
-                <li>2 TB Storage</li>
-                <hr>
-                <li>10 Users Allowed</li>
-                <hr>
-                <li>Send up to 20 GB</li>
-                <hr>
-            </ul>
-            <button class="btn">Learn More</button>
-        </div>
-    </div>
-</main>
+    </main>
 
     
 </body>
